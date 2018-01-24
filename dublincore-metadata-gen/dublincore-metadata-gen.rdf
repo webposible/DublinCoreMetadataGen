@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:dcmitype="http://purl.org/dc/dcmitype/"
+	xmlns:admin="http://webns.net/mvcb/">
+
+<rdf:Description rdf:about="http://www.webposible.com/utilidades/dublincore-metadata-gen/">
+	<dc:title>Dublincore Metadata Gen: Generador de metadatos dublincore</dc:title>
+	<dc:description>Dublincore Metadata Gen es una aplicaci&#243;n, realizada con PHP, genera tres tipos de metadatos de Dublin Core: Metadatos para insertar en documentos HTML &#243; XHTML, Microformatos de Dublin Core y Fichero RDF.</dc:description>
+	<dc:subject>
+		<rdf:Bag>
+
+			<rdf:li>dublincore</rdf:li>
+			<rdf:li>metadatos</rdf:li>
+			<rdf:li>microformatos</rdf:li>
+			<rdf:li>RDF</rdf:li>
+		</rdf:Bag>
+	</dc:subject>
+	<dc:language>es</dc:language>
+
+	<dc:creator dc:source="http://www.webposible.com/autor.html" rdfs:Literal="Alejandro Gonzalo Bravo Garc&#237;a" />
+	<dc:creator rdfs:Literal="Fernando Taboada" />
+	<dc:contributor dc:source="http://www.artnau.com/" rdfs:Literal="Arnau Siches" />
+	<dc:publisher dc:source="http://www.webposible.com/autor.html" rdfs:Literal="Alejandro Gonzalo Bravo Garc&#237;a" />
+	<dc:license dc:source="http://www.gnu.org/copyleft/gpl.html" rdfs:Literal="GNU General Public License" />
+	<dcterms:Created><dcterms:W3CDTF><rdf:value>2005-11-22</rdf:value></dcterms:W3CDTF></dcterms:Created>
+	<dcterms:Modified><dcterms:W3CDTF><rdf:value>2008-09-31</rdf:value></dcterms:W3CDTF></dcterms:Modified>
+	<dc:type rdfs:value="http://purl.org/dc/dcmitype/Dataset" />
+	<dc:type rdfs:value="http://purl.org/dc/dcmitype/Software" />
+	<dc:type rdfs:value="http://purl.org/dc/dcmitype/Text" />
+	<dc:relation dc:source="http://www.webposible.com/utilidades/generador_rdf_foto.html" rdfs:Literal="Foto RDF-Gen: Generador de ficheros RDF para describir fotograf&#237;as y otras im&#225;genes." />
+
+	<dc:relation dc:source="http://microformats.org/code/hcard/creator" rdfs:Literal="hCard Creator" />
+	<admin:generatorAgent rdf:resource="http://www.webposible.com/utilidades/dublincore-metadata-gen/" />
+</rdf:Description>
+</rdf:RDF>

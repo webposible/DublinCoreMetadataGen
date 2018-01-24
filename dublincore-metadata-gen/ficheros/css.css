@@ -1,0 +1,22 @@
+body{background-color:#FFF;color:#039;font-family:Verdana,Geneva,Arial,Helvetica,sans-serif}
+img{border:0}
+h1{color:#F60;font-size:150%}
+h2{color:#F60;font-size:120%}
+h3{color:#F60;font-size:110%}
+
+dt{margin-left:0.5ex;margin-bottom:0.5ex}
+dd{margin-bottom:2ex}
+
+fieldset{margin:1ex;padding:0.5ex;}
+legend{color:#F60;font-size:110%;font-weight:bold;border:1px solid #0B479D;padding:0.5ex}
+
+ul#typeVocabulary li, ul#xhtml-or-html li{list-style:none;}
+ul#uliconos li{list-style:none;display:inline;}
+
+#botonGenera{text-align:center;margin:1em;}
+#botonGenerarMetadatos{font-weight:bold;background-color:#F60;color:#FFF}
+
+#contenidoGeneradoMetadatos, #contenidoGeneradoMicroformatos, #contenidoGeneradoRDF{background-color:#FC3;color:#039;font-family:monospace;font-weight:bold;}
+#contenidoGeneradoMetadatos, #contenidoGeneradoMicroformatos, #contenidoGeneradoRDF, #descripcion{width:60ex;height:30ex;}
+.dublincore{border:1px solid #F60;padding:1em}
+.dublincore dt{font-weight:bold;color:#F60}

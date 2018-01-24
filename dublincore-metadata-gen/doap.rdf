@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:doap="http://usefulinc.com/ns/doap#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:admin="http://webns.net/mvcb/" xml:lang="es">
+  <rdf:Description rdf:about="">
+    <admin:generatorAgent rdf:resource="http://doapy.bonjourlesmouettes.org/doap-a-matic"/>
+  </rdf:Description>
+  <doap:Project>
+    <doap:name>Dublincore Metadata Gen: Generador de metadatos Dublincore</doap:name>
+    <doap:shortname>Dublincore Metadata Gen</doap:shortname>
+    <doap:homepage rdf:resource="http://www.webposible.com/utilidades/dublincore-metadata-gen/"/>
+
+    <doap:created>2005-11-22</doap:created>
+    <doap:description>Dublincore Metadata Gen es una aplicaci?n, realizada con PHP, genera tres tipos de metadatos de Dublin Core: Metadatos para insertar en documentos HTML ? XHTML, Microformatos de Dublin Core y Fichero RDF.</doap:description>
+    <doap:shortdesc>Generador de metadatos de Dublin Core</doap:shortdesc>
+    <doap:programming-language>PHP</doap:programming-language>
+    <doap:license rdf:resource="http://usefulinc.com/doap/licenses/gpl"/>
+
+    <doap:download-page rdf:resource="http://www.webposible.com/utilidades/dublincore-metadata-gen/"/>
+    <doap:maintainer>
+      <foaf:Person>
+        <foaf:name>Alejandro Gonzalo Bravo Garc&#237;a</foaf:name>
+        <foaf:nick>Pitutito</foaf:nick>
+        <foaf:mbox_sha1sum>d8f2960fa6acc0781ea9268468439185b2a848a7</foaf:mbox_sha1sum>
+        <rdfs:seeAlso rdf:resource="http://wwww.webposible.com/foaf.rdf"/>
+      </foaf:Person>
+    </doap:maintainer>
+  </doap:Project>
+</rdf:RDF>
